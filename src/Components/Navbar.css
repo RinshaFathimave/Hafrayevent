@@ -1,0 +1,36 @@
+/* Navbar.css */
+
+nav {
+    background-color: #022a30; /* Add a background color to the navigation bar */
+    height: 80px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 30px;
+    
+  }
+
+  li a:hover {
+    color: #b88c65; /* Change the color to your desired hover color */
+  }
+  
+  li {
+    margin-right: 20px; /* Adjust margin between list items */
+  }
+  
+  li:last-child {
+    margin-right: 0; /* Remove margin from the last list item to avoid extra spacing */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white; /* Set the text color for the links */
+    
+  }
+  
